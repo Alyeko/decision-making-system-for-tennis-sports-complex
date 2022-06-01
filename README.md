@@ -1,7 +1,7 @@
 ## 7-decisions-for-Abrabo-tennis-sports-complex
 The next Tennis Grand Slam Competition is coming up fast at Abrabo Tennis Sports Complex.
 
-In this repository, there are `7` files for the creation of a spatial database from scratch for the Tennis Sports Complex. The file stypes are sql and png. 
+In this repository, there are `7` files for the creation of a spatial database from scratch for the Tennis Sports Complex. The file types are sql and png. 
 ## 1. tables.sql
  - There are 14 tables created, with 5 of them having location components and 9 of them without geospatial components
 
