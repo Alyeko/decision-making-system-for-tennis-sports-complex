@@ -1,7 +1,9 @@
 --=============================================================================================================================================================================================================================================
 --Views--
 --=============================================================================================================================================================================================================================================
---The very first view to be created is the latest_parameters view. 
+--=============================================================================================================================================================================================================================================
+--view 1 for  --latest_parameters
+--=============================================================================================================================================================================================================================================
 
 drop view if exists ucesoan.latest_parameters cascade;
 create view ucesoan.latest_parameters as
@@ -20,7 +22,7 @@ and a.parameter_subname = b.parameter_subname
 and a.date_created = b.date_created;
 
 --=============================================================================================================================================================================================================================================
---view 1 for lower level(courts) --court_technology_condition_criticality_cost
+--view 2 for lower level(courts) --court_technology_condition_criticality_cost
 --=============================================================================================================================================================================================================================================
 drop view if exists ucesoan.court_technology_condition_criticality_cost cascade;
 create or replace view ucesoan.court_technology_condition_criticality_cost as 
@@ -79,7 +81,7 @@ from court_criticality a inner join court_hawkeye_installation_cost b on a.court
 
 
 --=================================================================================================================================================================================================================================
---view 2 for middle level(stadia) --stadium_technology_condition_criticality_cost
+--view 3 for middle level(stadia) --stadium_technology_condition_criticality_cost
 --=================================================================================================================================================================================================================================
 drop view if exists ucesoan.stadium_technology_condition_criticality_cost cascade;
 create or replace view ucesoan.stadium_technology_condition_criticality_cost as 
@@ -129,7 +131,7 @@ from cost_of_surveillance_installation a inner join cost_of_surveillance_replace
 
 
 --==================================================================================================================================================================================================================================
---view 3 for upper level(tennis_sports_complex)-- tennis_complex_technology_condition_cost 
+--view 4 for upper level(tennis_sports_complex)-- tennis_complex_technology_condition_cost 
 --==================================================================================================================================================================================================================================
 drop view if exists ucesoan.tennis_complex_technology_condition_cost cascade;
 create or replace view ucesoan.tennis_complex_technology_condition_cost as 
