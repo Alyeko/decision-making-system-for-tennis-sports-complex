@@ -1,4 +1,4 @@
---The next Tennis Grand Slam Competition is in late Januray, 2022 at Abrabo Tennis Sports Complex.
+--The next Tennis Grand Slam Competition is coming up fast at Abrabo Tennis Sports Complex.
 --The following seven decisions will help the management make preparations for the event.
 
 --The first three decisions are based on the views created which are based on the TECHNOLOGY theme. 
